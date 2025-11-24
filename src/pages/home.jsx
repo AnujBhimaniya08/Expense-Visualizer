@@ -7,7 +7,6 @@ import TransactionButton from "../components/addTransactionButton";
 import BalanceChart from "@/components/balanceChart";
 
 function Home() {
-  
   return (
     <>
       <div className="">
@@ -19,7 +18,6 @@ function Home() {
             <div className="mt-3 mb-3 ml-5 h-15 cursor-pointer  shrink-0 bg-fuchsia-300 w-77 rounded-sm p-2">
               <span className="text-3xl  flex gap-1">
                 <span className="shrink-0">Expense Visualiser</span>
-                <span>💸</span>{" "}
               </span>
             </div>
             <div className="">
